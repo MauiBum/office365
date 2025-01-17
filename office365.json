@@ -27,7 +27,7 @@
             "order": 0,
             "description": "EWS URL",
             "required": true,
-            "default": "https://outlook.office365.com/EWS/Exchange.asmx"
+            "default": "https://outlook.office365.us/EWS/Exchange.asmx"
         },
         "username": {
             "data_type": "string",
@@ -90,7 +90,7 @@
             "data_type": "string",
             "order": 10,
             "description": "Office 365 Authority URL (For Federated Auth)",
-            "default": "https://login.windows.net/contoso.onmicrosoft.com"
+            "default": "https://login.microsoftonline.us/domain.mail.onmicrosoft.com"
         },
         "poll_folder": {
             "data_type": "string",
@@ -298,7 +298,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -351,7 +351,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -535,7 +535,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -681,7 +681,7 @@
                     "column_name": "Destination Mailbox",
                     "column_order": 0,
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -717,7 +717,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -867,7 +867,7 @@
                     "column_name": "User Email",
                     "column_order": 0,
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -903,7 +903,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -1009,7 +1009,7 @@
                     "data_path": "action_result.parameter.email",
                     "data_type": "string",
                     "example_values": [
-                        "foo@bar.onmicrosoft.com"
+                        "foo@domain.mail.onmicrosoft.com"
                     ],
                     "contains": [
                         "email"
@@ -1134,7 +1134,7 @@
                     "data_path": "action_result.parameter.email",
                     "data_type": "string",
                     "example_values": [
-                        "foo@bar.onmicrosoft.com"
+                        "foo@domain.mail.onmicrosoft.com"
                     ],
                     "contains": [
                         "email"
@@ -1294,7 +1294,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -1343,7 +1343,7 @@
                     "data_path": "action_result.data.*.CC",
                     "data_type": "string",
                     "example_values": [
-                        "Test1 Test <Test1-test@test.onmicrosoft.com>, Test3 test\r\n\t<test3-test@test.onmicrosoft.com>, test4-test\r\n\t<test4-test@test.onmicrosoft.com>"
+                        "Test1 Test <Test1-test@domain.mail.onmicrosoft.com>, Test3 test\r\n\t<test3-test@domain.mail.onmicrosoft.com>, test4-test\r\n\t<test4-test@domain.mail.onmicrosoft.com>"
                     ]
                 },
                 {
@@ -1591,7 +1591,7 @@
                     "data_path": "action_result.data.*.X-MS-Exchange-CrossTenant-AuthSource",
                     "data_type": "string",
                     "example_values": [
-                        "\r\n CO2NAM12FT063.eop-nam11.prod.protection.outlook.com"
+                        "\r\n CO2NAM12FT063.eop-nam11.prod.protection.outlook.us"
                     ]
                 },
                 {
@@ -1635,7 +1635,7 @@
                     "data_path": "action_result.data.*.X-MS-Exchange-Organization-AuthSource",
                     "data_type": "string",
                     "example_values": [
-                        "DM3NAM03FT025.eop-NAM03.prod.protection.outlook.com"
+                        "DM3NAM03FT025.eop-NAM03.prod.protection.outlook.us"
                     ]
                 },
                 {
@@ -1852,7 +1852,7 @@
                     "data_path": "action_result.data.*.received-spf",
                     "data_type": "string",
                     "example_values": [
-                        "Pass (protection.outlook.com: domain of microsoft.com)"
+                        "Pass (protection.office365.us: domain of microsoft.us)"
                     ]
                 },
                 {
@@ -2425,7 +2425,7 @@
                         "exchange distribution list"
                     ],
                     "example_values": [
-                        "test_playbook2@testdomain.onmicrosoft.com"
+                        "test_playbook2@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -2443,7 +2443,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -2553,7 +2553,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -2563,7 +2563,7 @@
                         "email"
                     ],
                     "example_values": [
-                        "user@example.onmicrosoft.com"
+                        "user@domain.mail.onmicrosoft.com"
                     ]
                 },
                 {
@@ -3617,7 +3617,7 @@
                     "data_path": "action_result.data.*.*.__metadata.id",
                     "data_type": "string",
                     "example_values": [
-                        "https://reports.office365.com/ecp/ReportingWebService/Reporting.svc/MessageTrace(0)"
+                        "https://reports.office365.us/ecp/ReportingWebService/Reporting.svc/MessageTrace(0)"
                     ],
                     "contains": [
                         "url"
@@ -3634,7 +3634,7 @@
                     "data_path": "action_result.data.*.*.__metadata.uri",
                     "data_type": "string",
                     "example_values": [
-                        "https://reports.office365.com/ecp/ReportingWebService/Reporting.svc/MessageTrace(0)"
+                        "https://reports.office365.us/ecp/ReportingWebService/Reporting.svc/MessageTrace(0)"
                     ],
                     "contains": [
                         "url"
