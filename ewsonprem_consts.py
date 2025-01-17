@@ -61,9 +61,9 @@ MISSING_CLIENT_CREDS = "ERROR: client_id and client_secret are required paramete
 DEFAULT_REQUEST_TIMEOUT = 60  # in seconds
 
 EWSONPREM_MAX_END_OFFSET_VAL = 2147483646
-EWS_O365_RESOURCE = "https://outlook.office365.com"
-EWS_LOGIN_URL = "https://login.windows.net"
-EWS_TRACE_URL = "https://reports.office365.com/ecp/reportingwebservice/reporting.svc/MessageTrace"
+EWS_O365_RESOURCE = "https://outlook.office365.us"
+EWS_LOGIN_URL = "https://login.microsoftonline.use"
+EWS_TRACE_URL = "https://reports.office365.us/ecp/reportingwebservice/reporting.svc/MessageTrace"
 EWS_ASSET_PARAM_CHECK_LIST_ERRORS = ["unauthorized_client", "invalid_client", "invalid_grant", "invalid_request"]
 
 EWS_MODIFY_CONFIG = (
