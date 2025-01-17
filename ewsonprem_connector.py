@@ -361,7 +361,7 @@ class EWSOnPremConnector(BaseConnector):
 
         app_rest_url = message
 
-        request_url = "https://login.microsoftonline.com/common/oauth2"
+        request_url = "https://login.microsoftonline.us/common/oauth2"
 
         proxy = {}
         if "HTTP_PROXY" in os.environ:
@@ -422,10 +422,10 @@ class EWSOnPremConnector(BaseConnector):
 
         refresh_token = oauth_token["refresh_token"]
 
-        request_url = "https://login.microsoftonline.com/common/oauth2/token"
+        request_url = "https://login.microsoftonline.us/common/oauth2/token"
         body = {
             "grant_type": "refresh_token",
-            "resource": "https://outlook.office365.com/",
+            "resource": "https://outlook.office365.us/",
             "client_id": client_id,
             "refresh_token": refresh_token,
             "client_secret": client_secret,
