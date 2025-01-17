@@ -56,7 +56,7 @@ class Office365RequestHandler:
 
         body = {
             "grant_type": "authorization_code",
-            "resource": "https://outlook.office365.com/",
+            "resource": "https://outlook.office365.us/",
             "redirect_uri": redirect_uri,
             "client_id": client_id,
             "code": code,
