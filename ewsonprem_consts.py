@@ -62,7 +62,7 @@ DEFAULT_REQUEST_TIMEOUT = 60  # in seconds
 
 EWSONPREM_MAX_END_OFFSET_VAL = 2147483646
 EWS_O365_RESOURCE = "https://outlook.office365.us"
-EWS_LOGIN_URL = "https://login.microsoftonline.use"
+EWS_LOGIN_URL = "https://login.microsoftonline.us"
 EWS_TRACE_URL = "https://reports.office365.us/ecp/reportingwebservice/reporting.svc/MessageTrace"
 EWS_ASSET_PARAM_CHECK_LIST_ERRORS = ["unauthorized_client", "invalid_client", "invalid_grant", "invalid_request"]
 
