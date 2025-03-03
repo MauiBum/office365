@@ -1,8 +1,8 @@
 [comment]: # "Auto-generated SOAR connector documentation"
 # EWS for Office 365
 
-Publisher: Splunk  
-Connector Version: 2.15.5  
+Publisher: Splunk + 3rd Party 
+Connector Version: 2.15.5.1-GCCH  
 Product Vendor: Microsoft  
 Product Name: Office 365  
 Product Version Supported (regex): ".\*"  
@@ -11,7 +11,7 @@ Minimum Product Version: 6.2.2
 This app ingests emails from a mailbox in addition to supporting various investigative and containment actions on an Office 365 service
 
 [comment]: # "File: README.md"
-[comment]: # "Copyright (c) 2016-2024 Splunk Inc."
+[comment]: # "Copyright (c) 2016-2025 Splunk Inc."
 [comment]: # ""
 [comment]: # "Licensed under the Apache License, Version 2.0 (the 'License');"
 [comment]: # "you may not use this file except in compliance with the License."
