@@ -2,7 +2,7 @@
 # EWS for Office 365 - GCC High
 
 Publisher: Splunk + 3rd Party 
-Connector Version: 2.15.5.2-GCCH  
+Connector Version: 2.15.5.3  
 Product Vendor: Microsoft  
 Product Name: Office 365 - GCCH 
 Product Version Supported (regex): ".\*"  
