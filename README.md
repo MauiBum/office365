@@ -1,7 +1,7 @@
 [comment]: # "Auto-generated SOAR connector documentation"
 # EWS for Office 365 - GCC High
 
-Publisher: Splunk + 3rd Party 
+Publisher: Splunk
 Connector Version: 2.15.6 
 Product Vendor: Microsoft  
 Product Name: Office 365 - GCCH 
